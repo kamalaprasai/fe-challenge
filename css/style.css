@@ -1,0 +1,126 @@
+*
+*:before,
+*:after {
+box-sizing: border-box;
+}
+
+body {
+  background-color: #DADADA;
+  font-family: Roboto;
+}
+.container {
+  width:375px;
+  height:1004px;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+status-bar {
+  background-color: #000000;
+  color:DADADA;
+}
+
+.station-title {
+  width:375px;
+  height: 88px;
+  text-align:center;
+  background-color: #FFFFFF;
+}
+
+nav {
+    color:#DADADA;
+    background-color: #000000;
+}
+
+img.back-arrow{
+  float: left;
+  padding-left: 10px;
+  padding-top: 58px;
+  color: #000000;
+}
+
+h1{
+  font-size: 30px;
+  padding-top: 40px;
+  align-items: center;
+  font-weight: bold;
+  line-height: 35px;
+  padding-left: 10px;
+}
+
+.Map{
+  padding-top: 0px;
+  padding-bottom: 10px;
+  width: 375px;
+  height: 401px;
+}
+  h2{
+    font-size: 18px;
+    letter-spacing: -0.0241176em;
+    line-height: 22px;
+    font-weight: bold;
+    padding-left: 140px;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+.frequency, .singular {
+  line-height: 22px;
+  background-color: #FFFFFF;
+}
+
+.arrow-time{
+ float: right;
+ width: 20px;
+ padding-left: 11px;
+ margin-top: 8px;
+}
+
+.bus-numbers{
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  margin: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.bus-route{
+  display: inline-block;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.0241176em;
+}
+
+.frequency{
+  color: #000000;
+  line-height: 22px;
+  font-size:16px;
+  float: right;
+  margin-top:6px;
+}
+
+h3{
+    background-color: #EB5757;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    padding-left: 120px;
+    align-items: center;
+    letter-spacing: -0.0241176em;
+    height:22px;
+    margin-bottom: 0px;
+}
+
+.reroute{
+     background-color: #EB5757;
+     font-size: 18px;
+     line-height: 22px;
+     align-items: center;
+     letter-spacing: -0.0241176em;
+     margin-top: 4px;
+}
