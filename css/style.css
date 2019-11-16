@@ -103,7 +103,6 @@ h1{
   float: right;
   margin-top:6px;
 }
-
 h3{
     background-color: #EB5757;
     font-size: 18px;
@@ -118,9 +117,16 @@ h3{
 
 .reroute{
      background-color: #EB5757;
-     font-size: 18px;
-     line-height: 22px;
-     align-items: center;
-     letter-spacing: -0.0241176em;
-     margin-top: 4px;
 }
+
+h5{
+    letter-spacing: -0.0241176em;
+    font-weight: bold;
+    padding-left: 140px;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 0px;
+    font-size: 18px;
+    height: 22px;
+    margin-top: 10px;
+  }
