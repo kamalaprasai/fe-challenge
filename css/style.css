@@ -30,12 +30,6 @@ status-bar {
   line-height: 35px;
 }
 
-
-nav {
-    color:#DADADA;
-    background-color: #000000;
-}
-
 img.back-arrow{
   float: left;
   padding-left: 15px;
@@ -68,7 +62,9 @@ h1{
     text-align: center;
     color: #000000;
     margin-bottom: 0px;
+    padding-left: 0px;
     margin-top: 0px;
+    font-weight: bold;
   }
 
 .frequency, .singular {
@@ -76,16 +72,10 @@ h1{
   background-color: #FFFFFF;
 }
 
-.line {
-  padding-left: 0px;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-}
-
 .arrow-time{
  float: right;
  width: 20px;
+ height: 20px;
  padding-left: 11px;
  margin-top: 8px;
 }
