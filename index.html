@@ -1,96 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BusyBus</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BusyBus</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-    <section class="container">
-        <img class="status-bar" src="images/status bar.png">
-        <img class="back-arrow" src="images/Back.png">
+  <section class="container">
+    <img class="status-bar" src="images/status bar.png">
+    <img class="back-arrow" src="images/Back.png">
 
 
-        <div class= "station-title">
-        <h1>Washington & State</h1>
+    <div class="station-title">
+      <h1>Washington & State</h1>
+    </div>
+    <img class="map" src="images/map.png">
+    <h2>Eastbound</h2>
+    </div>
+    <ul>
+      <li class="bus-numbers">60</li>
+      <li class="bus-route">Randolph/ Harbor Dr</li>
+      <img class="arrow-time" src="images/Arrow Right Grey 1.png">
+      <li class="frequency">Every 20 min</li>
+      <ul>
+
+        <li class="bus-numbers">124</li>
+        <li class="bus-route">Navy Pier</li>
+        <img class="arrow-time" src="images/Arrow Right Grey 1.png">
+        <li class="frequency"> Every 10 min</li>
+        <hr>
+      </ul>
+
+      <h2>Northbound</h2>
+      </div>
+
+      <ul>
+        <li class="bus-numbers">151</li>
+        <li class="bus-route">Devon/ Clark</li>
+        <img class="arrow-time" src="images/Arrow Right Grey 1.png">
+        <li class="frequency">Every 16 min</li>
+        <hr>
+      </ul>
+
+      <h2>Southbound</h2>
+      </div>
+      <ul>
+        <li class="bus-numbers">J14</li>
+        <li class="bus-route">103rd/ Stony Island</li>
+        <img class="arrow-time" src="images/Arrow Right Grey 1.png">
+        <li class="frequency">Every 15 min</li>
+        <ul>
+
+          <li class="bus-numbers">124</li>
+          <li class="bus-route">Navy Pier</li>
+          <img class="arrow-time" src="images/Arrow Right Grey 1.png">
+          <li class="frequency">Every 10 min</li>
+        </ul>
+
+        <div class="out-of-service">
+          <h3>OUT OF SERVICE</h3>
         </div>
-        <img class="map" src="images/map.png">
-            <h2>Eastbound</h2>
-          </div>
-                        <ul>
-                        <li class="bus-numbers">60</li>
-                        <li class="bus-route">Randolph/ Harbor Dr</li>
-                        <img class="arrow-time" src="images/Arrow Right Grey 1.png">
-                        <li class="frequency">Every 20 min</li>
-                      <ul>
+        <ul>
+          <li class="bus-numbers">4</li>
+          <li class="bus-route">Cottage Grove</li>
+          <img class="arrow-time" src="images/Arrow Right Grey 1.png">
+          <li class="frequency">Resume 12:10 AM</li>
+          <ul>
 
-                        <li class="bus-numbers">124</li>
-                        <li class="bus-route">Navy Pier</li>
-                        <img class="arrow-time" src="images/Arrow Right Grey 1.png">
-                        <li class="frequency"> Every 10 min</li>
-                          <hr>
-                    </ul>
+            <li class="bus-numbers">20</li>
+            <li class="bus-route">Madison</li>
+            <img class="arrow-time" src="images/Arrow Right Grey 1.png">
+            <li class="frequency">Resume 12:10 AM</li>
+            <ul>
 
-            <h2>Northbound</h2>
-          </div>
+              <li class="bus-numbers">157</li>
+              <li class="bus-route">Streeterville/ Taylor</li>
+              <img class="arrow-time" src="images/Arrow Right Grey 1.png">
+              <li class="frequency">Resume 6:00 AM</li>
 
-                <ul>
-                <li class="bus-numbers">151</li>
-                <li class="bus-route">Devon/ Clark</li>
-                <img class="arrow-time" src="images/Arrow Right Grey 1.png">
-                <li class="frequency">Every 16 min</li>
-                <hr>
-               </ul>
+            </ul>
 
-            <h2>Southbound</h2>
-          </div>
-                      <ul>
-                       <li class="bus-numbers">J14</li>
-                       <li class="bus-route">103rd/ Stony Island</li>
-                       <img class="arrow-time" src="images/Arrow Right Grey 1.png">
-                       <li class="frequency">Every 15 min</li>
-                     <ul>
+            <div class="reroute">
+              <h3>REROUTE</h3>
+            </div>
+            <li class="bus-numbers">6x</li>
+            <li class="bus-route" id="long-route-name">Jackson Park Express</li>
+            <img class="arrow-time" src="images/Arrow Right Grey 1.png">
+            <li class="frequency">N/A</li>
+          </ul>
+</body>
 
-                        <li class="bus-numbers">124</li>
-                        <li class="bus-route">Navy Pier</li>
-                        <img class="arrow-time" src="images/Arrow Right Grey 1.png">
-                        <li class="frequency">Every 10 min</li>
-                   </ul>
-
-                 <div class="out-of-service">
-                   <h3>OUT OF SERVICE</h3>
-                 </div>
-                              <ul>
-                                <li class="bus-numbers">4</li>
-                                <li class="bus-route">Cottage Grove</li>
-                                <img class="arrow-time" src="images/Arrow Right Grey 1.png">
-                                <li class="frequency">Resume 12:10 AM</li>
-                              <ul>
-
-                                <li class="bus-numbers">20</li>
-                                <li class="bus-route">Madison</li>
-                                <img class="arrow-time" src="images/Arrow Right Grey 1.png">
-                                <li class="frequency">Resume 12:10 AM</li>
-                            <ul>
-
-                                <li class="bus-numbers">157</li>
-                                <li class="bus-route">Streeterville/ Taylor</li>
-                                <img class="arrow-time" src="images/Arrow Right Grey 1.png">
-                                <li class="frequency">Resume 6:00 AM</li>
-
-                              </ul>
-
-                      <div class="reroute">
-                        <h3>REROUTE</h3>
-                      </div>
-                    <li class="bus-numbers">6x</li>
-                    <li class="bus-route" id="long-route-name">Jackson Park Express</li>
-                    <img class="arrow-time" src="images/Arrow Right Grey 1.png">
-                    <li class="frequency">N/A</li>
-                  </ul>
-                    </body>
-                  </html>
+</html>
